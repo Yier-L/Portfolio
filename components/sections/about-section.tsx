@@ -25,7 +25,7 @@ export function AboutSection() {
             <div className="mt-8">
               <p className="text-sm font-medium uppercase tracking-[0.2em] text-muted">Tech I work with</p>
               <div className="mt-3 flex flex-wrap gap-2">
-                {Object.entries(skills).flatMap(([, arr]) => arr as string[]).map((s) => (
+                {Object.values(skills).flatMap((arr) => arr).map((s) => (
                   <span
                     key={s}
                     className="rounded-full border border-border px-3 py-1 text-sm text-muted"
