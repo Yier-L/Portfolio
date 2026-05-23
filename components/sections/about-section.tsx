@@ -4,9 +4,9 @@ import { skills } from "@/data/skills";
 import { siteConfig } from "@/data/site";
 
 const stats = [
-  { label: "Years exp.", value: "5+" },
-  { label: "Projects shipped", value: "20+" },
-  { label: "Location", value: siteConfig.location },
+  { label: "Year", value: "3rd" },
+  { label: "Degree", value: "CS + Comm" },
+  { label: "Location", value: "Sydney" },
 ];
 
 export function AboutSection() {
@@ -18,15 +18,14 @@ export function AboutSection() {
             <p className="text-xs font-medium uppercase tracking-[0.3em] text-blue-400">01</p>
             <h2 className="mt-3 text-3xl font-semibold">About</h2>
             <p className="mt-4 max-w-xl text-base leading-7 text-muted">
-              Hello — I&apos;m {siteConfig.name}, a software engineer focused on building polished,
-              accessible, and high-performance web applications. I enjoy working end-to-end,
-              from product thinking and design systems to shipping fast, maintainable frontend
-              architecture.
+              Hey — I&apos;m {siteConfig.name}, a 3rd year Bachelor of Commerce / Computer Science
+              student at UNSW Sydney. I&apos;m passionate about building things for the web and
+              bridging the gap between technology and business.
             </p>
             <p className="mt-3 max-w-xl text-base leading-7 text-muted">
-              I thrive in remote-first environments where craft and velocity matter equally. I care
-              deeply about developer experience and think good tooling is a form of respect for your
-              team.
+              I enjoy working across the full stack — from designing clean interfaces to wiring up
+              APIs and databases. Currently looking for a software engineering internship where I can
+              contribute, learn, and grow fast.
             </p>
 
             {/* Stats */}

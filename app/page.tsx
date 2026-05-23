@@ -28,8 +28,8 @@ export default function Home() {
     <main id="content" className="flex-1">
       <HeroSection />
       <AboutSection />
-      <TechSection />
       <ExperienceSection />
+      <TechSection />
       <ProjectsSection />
       <ContactSection />
     </main>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
+import { BackgroundCanvas } from "@/components/background-canvas";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/data/site";
@@ -36,10 +37,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
-        <a href="#content" className="skip-link sr-only focus:not-sr-only">
-          Skip to content
-        </a>
-
+        <BackgroundCanvas />
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="dark"
@@ -47,9 +45,14 @@ export default function RootLayout({
           disableTransitionOnChange
           storageKey="portfolio-theme"
         >
-          <Navbar />
-          {children}
-          <Footer />
+          <div className="relative z-10 flex min-h-full flex-col">
+            <a href="#content" className="skip-link sr-only focus:not-sr-only">
+              Skip to content
+            </a>
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>

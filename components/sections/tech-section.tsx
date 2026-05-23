@@ -28,7 +28,7 @@ export function TechSection() {
   return (
     <section id="tech" className="py-24">
       <SiteShell>
-        <p className="text-xs font-medium uppercase tracking-[0.3em] text-blue-400">02</p>
+        <p className="text-xs font-medium uppercase tracking-[0.3em] text-blue-400">03</p>
         <h2 className="mt-3 text-3xl font-semibold">Tech Stack</h2>
         <p className="mt-3 text-muted">Tools and technologies I use, grouped by category.</p>
 

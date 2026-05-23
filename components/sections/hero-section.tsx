@@ -65,7 +65,7 @@ export function HeroSection() {
             <motion.div variants={item} className="mt-10 flex flex-wrap gap-3">
               <Link
                 href="#projects"
-                className="inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-all duration-200 hover:scale-[1.03] hover:opacity-90"
+                className="inline-flex items-center gap-2 rounded-full bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-all duration-200 hover:scale-[1.03] hover:bg-blue-600"
               >
                 View Work
                 <ArrowRight className="h-4 w-4" />
@@ -102,16 +102,16 @@ export function HeroSection() {
                 </div>
                 <div className="flex shrink-0 items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-400">
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                  Available
+                  Seeking internship
                 </div>
               </div>
 
               {/* Stats row */}
               <div className="mt-6 grid grid-cols-3 gap-px rounded-xl border border-border/50 bg-border/20 overflow-hidden">
                 {[
-                  { label: "Years exp.", value: "5+" },
-                  { label: "Projects", value: "20+" },
-                  { label: "Focus", value: "Web" },
+                  { label: "Year", value: "3rd" },
+                  { label: "University", value: "UNSW" },
+                  { label: "Location", value: "Sydney" },
                 ].map((s) => (
                   <div key={s.label} className="bg-background/40 px-4 py-3">
                     <p className="text-xl font-semibold">{s.value}</p>
@@ -125,13 +125,13 @@ export function HeroSection() {
                 <div className="rounded-xl border border-border/50 bg-background/40 p-3.5">
                   <p className="text-xs uppercase tracking-[0.2em] text-muted">What I build</p>
                   <p className="mt-1.5 text-sm leading-relaxed text-foreground/85">
-                    Modern product experiences, design systems, and performance-minded frontend architecture.
+                    Full-stack web apps, APIs, and side projects that solve real problems.
                   </p>
                 </div>
                 <div className="rounded-xl border border-border/50 bg-background/40 p-3.5">
-                  <p className="text-xs uppercase tracking-[0.2em] text-muted">Where I work</p>
+                  <p className="text-xs uppercase tracking-[0.2em] text-muted">What I&apos;m looking for</p>
                   <p className="mt-1.5 text-sm leading-relaxed text-foreground/85">
-                    Remote-first teams with high standards for craft and velocity.
+                    Software engineering internship — open to frontend, backend, or full-stack roles.
                   </p>
                 </div>
               </div>
