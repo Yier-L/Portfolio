@@ -6,6 +6,6 @@ export const siteConfig = {
   email: "yierliao48@gmail.com",
   socialLinks: [
     { label: "GitHub", href: "https://github.com/Yier-L" },
-    { label: "LinkedIn", href: "www.linkedin.com/in/yier-liao-a8a95b356" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/yier-liao-a8a95b356" },
   ],
 } as const;
