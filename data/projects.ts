@@ -14,7 +14,7 @@ export const projects: Project[] = [
     id: "fishstagram",
     title: "Hookd",
     description:
-      "A single-server fishing social app: TypeScript + Express backend serving a static React frontend (global CDN React). Images uploaded to disk; JSON flat-file persistence.",
+      "A single-server fishing social app built for Devsoc x Atlassian Hackathon: TypeScript + Express backend serving a static React frontend (global CDN React). Images uploaded to disk; JSON flat-file persistence.",
     tech: ["Node.js", "Express", "TypeScript", "Multer", "Vanilla React (global)", "JSON File Storage"],
     repo: "https://github.com/williamli578/DevSocHackathon",
     live: "",

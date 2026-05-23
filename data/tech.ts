@@ -1,6 +1,6 @@
 export const techCatalog = {
-  languages: ["TypeScript", "JavaScript", "Python", "Java", "Go"],
+  languages: ["Java", "C", "TypeScript", "JavaScript", "Assembly"],
   frameworks: ["Next.js", "React", "Express", "Tailwind CSS", "Framer Motion"],
-  tools: ["Vercel", "Git", "Docker", "ESLint", "Prettier"],
-  cloud: ["Vercel", "AWS S3", "Cloudflare"],
+  tools: ["Vercel", "Git", "ESLint", "Prettier"],
+  cloud: ["Vercel"],
 } as const;

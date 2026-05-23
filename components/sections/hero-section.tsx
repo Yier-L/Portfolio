@@ -25,7 +25,7 @@ export function HeroSection() {
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute left-1/2 top-0 h-[28rem] w-[28rem] -translate-x-1/2 -translate-y-1/4 rounded-full bg-blue-500/[0.13] blur-3xl" />
         <div className="absolute right-0 top-32 h-80 w-80 rounded-full bg-violet-500/[0.07] blur-3xl" />
-        <div className="absolute bottom-0 left-0 h-80 w-80 rounded-full bg-indigo-500/[0.07] blur-3xl" />
+        <div className="absolute bottom-1/2 left-0 h-80 w-80 rounded-full bg-indigo-500/[0.07] blur-3xl" />
       </div>
 
       <SiteShell>

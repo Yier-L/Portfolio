@@ -32,15 +32,7 @@ export function BackgroundCanvas() {
         className="absolute top-0 left-0 right-0 h-[70vh] blur-[20px]"
       />
 
-      {/* Violet glow — right side */}
-      <motion.div
-        style={{
-          y: y2,
-          background:
-            "radial-gradient(ellipse 50% 65% at 90% 40%, rgba(139,92,246,0.18) 0%, transparent 100%)",
-        }}
-        className="absolute top-[20%] left-0 right-0 h-[60vh] blur-[15px]"
-      />
+
 
       {/* Indigo glow — bottom left */}
       <motion.div
