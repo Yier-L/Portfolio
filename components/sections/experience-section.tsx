@@ -39,7 +39,7 @@ export function ExperienceSection() {
                 <p className="mt-1 text-sm text-muted">UNSW Sydney</p>
               </div>
               <span className="shrink-0 rounded-full border border-border/60 bg-background/40 px-3 py-1 text-xs text-muted">
-                2024 — 2028
+                2024 — 2027
               </span>
             </div>
 
