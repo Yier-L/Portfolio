@@ -22,44 +22,44 @@ export function BackgroundCanvas() {
         }}
       />
 
-      {/* Blue orb — top center */}
+      {/* Blue glow — top center. Full-width element: no left/right boundary to clip against. */}
       <motion.div
         style={{
           y: y1,
           background:
-            "radial-gradient(ellipse at 50% 40%, rgba(59,130,246,0.22) 0%, rgba(59,130,246,0.10) 40%, transparent 62%)",
+            "radial-gradient(ellipse 65% 55% at 50% 10%, rgba(59,130,246,0.22) 0%, transparent 100%)",
         }}
-        className="absolute -top-48 left-[calc(50%-400px)] h-[800px] w-[800px] blur-[40px]"
+        className="absolute top-0 left-0 right-0 h-[70vh] blur-[20px]"
       />
 
-      {/* Violet orb — mid right */}
+      {/* Violet glow — right side */}
       <motion.div
         style={{
           y: y2,
           background:
-            "radial-gradient(ellipse at 50% 50%, rgba(139,92,246,0.18) 0%, rgba(139,92,246,0.08) 40%, transparent 62%)",
+            "radial-gradient(ellipse 50% 65% at 90% 40%, rgba(139,92,246,0.18) 0%, transparent 100%)",
         }}
-        className="absolute top-[35%] right-[-10%] h-[560px] w-[560px] blur-[40px]"
+        className="absolute top-[20%] left-0 right-0 h-[60vh] blur-[15px]"
       />
 
-      {/* Indigo orb — lower left */}
+      {/* Indigo glow — bottom left */}
       <motion.div
         style={{
           y: y3,
           background:
-            "radial-gradient(ellipse at 50% 50%, rgba(99,102,241,0.18) 0%, rgba(99,102,241,0.08) 40%, transparent 62%)",
+            "radial-gradient(ellipse 50% 60% at 8% 80%, rgba(99,102,241,0.18) 0%, transparent 100%)",
         }}
-        className="absolute bottom-[5%] left-[-8%] h-[440px] w-[440px] blur-[30px]"
+        className="absolute top-[40%] left-0 right-0 h-[70vh] blur-[15px]"
       />
 
-      {/* Cyan accent — center-left */}
+      {/* Cyan accent — center left */}
       <motion.div
         style={{
           y: y4,
           background:
-            "radial-gradient(ellipse at 50% 50%, rgba(6,182,212,0.12) 0%, rgba(6,182,212,0.05) 40%, transparent 62%)",
+            "radial-gradient(ellipse 38% 50% at 25% 60%, rgba(6,182,212,0.13) 0%, transparent 100%)",
         }}
-        className="absolute top-[58%] left-[15%] h-[300px] w-[300px] blur-[20px]"
+        className="absolute top-[45%] left-0 right-0 h-[50vh] blur-[15px]"
       />
 
       {/* Decorative rings — top right cluster */}
@@ -70,7 +70,6 @@ export function BackgroundCanvas() {
       {/* Decorative rings — bottom left cluster */}
       <div className="absolute bottom-[22%] left-[5%] h-64 w-64 rounded-full border border-violet-400/[0.06]" />
       <div className="absolute bottom-[18%] left-[9%] h-44 w-44 rounded-full border border-white/[0.03]" />
-
     </div>
   );
 }
