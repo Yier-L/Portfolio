@@ -11,7 +11,7 @@ export function BackgroundCanvas() {
   const y4 = useTransform(scrollYProgress, [0, 1], [0, -200]);
 
   return (
-    <div aria-hidden="true" className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+    <div aria-hidden="true" className="pointer-events-none fixed inset-0 z-0">
       {/* Dot grid texture */}
       <div
         className="absolute inset-0"
@@ -27,7 +27,7 @@ export function BackgroundCanvas() {
         style={{
           y: y1,
           background:
-            "radial-gradient(ellipse at 50% 40%, rgba(59,130,246,0.22) 0%, rgba(59,130,246,0.10) 45%, transparent 72%)",
+            "radial-gradient(ellipse at 50% 40%, rgba(59,130,246,0.22) 0%, rgba(59,130,246,0.10) 40%, transparent 62%)",
         }}
         className="absolute -top-48 left-[calc(50%-400px)] h-[800px] w-[800px] blur-[40px]"
       />
@@ -37,9 +37,9 @@ export function BackgroundCanvas() {
         style={{
           y: y2,
           background:
-            "radial-gradient(ellipse at 50% 50%, rgba(139,92,246,0.18) 0%, rgba(139,92,246,0.08) 45%, transparent 72%)",
+            "radial-gradient(ellipse at 50% 50%, rgba(139,92,246,0.18) 0%, rgba(139,92,246,0.08) 40%, transparent 62%)",
         }}
-        className="absolute top-[35%] -right-56 h-[560px] w-[560px] blur-[40px]"
+        className="absolute top-[35%] right-[-10%] h-[560px] w-[560px] blur-[40px]"
       />
 
       {/* Indigo orb — lower left */}
@@ -47,9 +47,9 @@ export function BackgroundCanvas() {
         style={{
           y: y3,
           background:
-            "radial-gradient(ellipse at 50% 50%, rgba(99,102,241,0.18) 0%, rgba(99,102,241,0.08) 45%, transparent 72%)",
+            "radial-gradient(ellipse at 50% 50%, rgba(99,102,241,0.18) 0%, rgba(99,102,241,0.08) 40%, transparent 62%)",
         }}
-        className="absolute bottom-[5%] -left-40 h-[440px] w-[440px] blur-[30px]"
+        className="absolute bottom-[5%] left-[-8%] h-[440px] w-[440px] blur-[30px]"
       />
 
       {/* Cyan accent — center-left */}
@@ -57,9 +57,9 @@ export function BackgroundCanvas() {
         style={{
           y: y4,
           background:
-            "radial-gradient(ellipse at 50% 50%, rgba(6,182,212,0.12) 0%, rgba(6,182,212,0.05) 45%, transparent 72%)",
+            "radial-gradient(ellipse at 50% 50%, rgba(6,182,212,0.12) 0%, rgba(6,182,212,0.05) 40%, transparent 62%)",
         }}
-        className="absolute top-[58%] left-[12%] h-[300px] w-[300px] blur-[20px]"
+        className="absolute top-[58%] left-[15%] h-[300px] w-[300px] blur-[20px]"
       />
 
       {/* Decorative rings — top right cluster */}
