@@ -41,7 +41,7 @@ export default function RootLayout({
         </a>
 
         <ThemeProvider
-          attribute="class"
+          attribute="data-theme"
           defaultTheme="dark"
           enableSystem={false}
           disableTransitionOnChange
