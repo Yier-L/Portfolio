@@ -1,5 +1,5 @@
 export const skills = {
-  languages: ["TypeScript", "JavaScript", "Python", "Go"],
+  languages: ["Java", "C", "TypeScript", "JavaScript", "Python"],
   frameworks: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
-  tools: ["Vercel", "Git", "Docker", "Postgres"],
+  tools: ["Vercel", "Git"],
 } as const;
