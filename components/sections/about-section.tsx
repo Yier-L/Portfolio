@@ -18,14 +18,14 @@ export function AboutSection() {
             <p className="text-xs font-medium uppercase tracking-[0.3em] text-blue-400">01</p>
             <h2 className="mt-3 text-3xl font-semibold">About</h2>
             <p className="mt-4 max-w-xl text-base leading-7 text-muted">
-              Hey — I&apos;m {siteConfig.name}, a 3rd year Bachelor of Commerce / Computer Science
-              student at UNSW Sydney. I&apos;m passionate about building things for the web and
-              bridging the gap between technology and business.
+              I&apos;m {siteConfig.name}, a 3rd year university student at UNSW studying a double degree: Bachelor of Commerce/Computer Science.
+              I&apos;m passionate about creating projects to solve issues for the web and
+              applying my skills in technology and commercial business in a cohesive, holistic way.
             </p>
             <p className="mt-3 max-w-xl text-base leading-7 text-muted">
-              I enjoy working across the full stack — from designing clean interfaces to wiring up
+              I prefer full-stack developement, from designing clean interfaces to wiring up
               APIs and databases. Currently looking for a software engineering internship where I can
-              contribute, learn, and grow fast.
+              contribute, learn, and grow professionally.
             </p>
 
             {/* Stats */}
